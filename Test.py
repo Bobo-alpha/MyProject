@@ -13,3 +13,4 @@ def mandelbrot( h,w, maxit=10 ):
         z[diverge] = 2                        # avoid diverging too much
     return divtime
 plt.imshow(mandelbrot(400,400))
+#sucess
